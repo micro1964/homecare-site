@@ -87,7 +87,7 @@ header {
       rgba(42, 157, 143, 0.75),
       rgba(86, 207, 225, 0.75)
     ),
-    url("/img/hero.jpg") center/cover no-repeat;
+    url("img/hero.jpg") center/cover no-repeat;
   
   display: flex;
   align-items: center;
