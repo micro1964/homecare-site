@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JOW Care Group</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <img src="/img/logo.jpeg" alt="JOW Care Group Logo" class="logo" />
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h2>Your Health, Our Priority</h2>
+    <p>Modern healthcare solutions with compassion and expertise.</p>
+    <button onclick="scrollToSection('contact')">Book Appointment</button>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">General Checkup</div>
+    <div class="card">Pediatrics</div>
+    <div class="card">Dental Care</div>
+    <div class="card">Emergency Care</div>
+  </div>
+</section>
+
+<section id="about" class="section light">
+  <h2>About Us</h2>
+  <p>
+    We are a modern healthcare provider focused on patient-first services,
+    technology-driven diagnosis, and a calm healing environment.
+  </p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email Address" required />
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="formStatus"></p>
+</section>
+
+<footer>
+  <p>© 2026 JOW Care Group | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
